@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación de Sebastián</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Hola, soy Sebastián</h1>
+        <h2>Estudiante de Analista Programador</h2>
+    </header>
+
+    <div>
+        <h3>Sobre mí</h3>
+        <p>Mi nombre es Sebastián y actualmente me encuentro estudiando la carrera de Analista Programador. Esta es mi segunda carrera, ya que anteriormente me gradué en Mecánica Automotriz, un área que siempre me ha apasionado por el funcionamiento y complejidad de los motores.</p>
+        <p>Me considero una persona versátil, con intereses variados. Disfruto mucho aprender nuevas tecnologías, resolver problemas lógicos y también mantenerme activo físicamente. Me gusta trabajar en equipo, enfrentar nuevos desafíos y crecer tanto personal como profesionalmente.</p>
+    </div>
+
+    <div class="flex-container">
+        <div class="box">
+            <h3>Habilidades</h3>
+            <ul>
+                <li>Trabajo en equipo</li>
+                <li>Aprendizaje rápido</li>
+                <li>Responsabilidad</li>
+                <li>Comunicación asertiva</li>
+                <li>Adaptabilidad al cambio</li>
+            </ul>
+        </div>
+        <div class="box">
+            <h3>Intereses</h3>
+            <ol>
+                <li>Automóviles y mecánica</li>
+                <li>Motos</li>
+                <li>Programación y desarrollo web</li>
+                <li>Gimnasio y vida saludable</li>
+                <li>Videojuegos y tecnología</li>
+            </ol>
+        </div>
+    </div>
+    <div class="experiencia">
+        <h3>Experiencia Técnica</h3>
+    
+        <div class="flex-container">
+            <div class="box">
+                <h4>Programación</h4>
+                <ul>
+                    <li>Python</li>
+                    <li>Oracle (PL/SQL)</li>
+                    <li>MongoDB</li>
+                    <li>HTML5 / CSS3</li>
+                    <li>JavaScript básico</li>
+                </ul>
+            </div>
+            <div class="box">
+                <h4>Mecánica Automotriz</h4>
+                <ul>
+                    <li>Mecánica integral</li>
+                    <li>Transmisiones automáticas</li>
+                    <li>Reparación de motores</li>
+                    <li>Mantenciones generales</li>
+                    <li>Electricidad y electrónica automotriz</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="formacion">
+        <h3>Formación Académica</h3>
+        <ul>
+            <li>Técnico en Mecánica Automotriz y Autotrónica - Duoc UC</li>
+            <li>Analista Programador - Inacap (en curso)</li>
+        </ul>
+    </div>
+    
+    <div>
+        <h3>Galería</h3>
+        <p>Aquí hay algunas imágenes que representan mis intereses y estilo de vida:</p>
+        <div class="gallery">
+            <img src="imagenes/auto.jpg" alt="Auto deportivo">
+            <img src="imagenes/codigo.jpg" alt="Codigo">
+            <img src="imagenes/gym.jpg" alt="Gimnasio">
+        </div>
+    </div>
+    <div class="contacto">
+        <h3>Contáctame</h3>
+        <form action="/enviar" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+    
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Sebastián. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
