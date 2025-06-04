@@ -13,12 +13,13 @@
         <h2>Estudiante de Analista Programador</h2>
     </header>
 
-    <div>
+    <div class="box-section">
         <h3>Sobre mí</h3>
         <p>Mi nombre es Sebastián y actualmente me encuentro estudiando la carrera de Analista Programador. Esta es mi segunda carrera, ya que anteriormente me gradué en Mecánica Automotriz, un área que siempre me ha apasionado por el funcionamiento y complejidad de los motores.</p>
         <p>Me considero una persona versátil, con intereses variados. Disfruto mucho aprender nuevas tecnologías, resolver problemas lógicos y también mantenerme activo físicamente. Me gusta trabajar en equipo, enfrentar nuevos desafíos y crecer tanto personal como profesionalmente.</p>
     </div>
 
+    <div class="box-section">
     <div class="flex-container">
         <div class="box">
             <h3>Habilidades</h3>
@@ -41,9 +42,11 @@
             </ol>
         </div>
     </div>
-    <div class="experiencia">
+    </div>
+
+
+    <div class="experiencia box-section">
         <h3>Experiencia Técnica</h3>
-    
         <div class="flex-container">
             <div class="box">
                 <h4>Programación</h4>
@@ -67,15 +70,16 @@
             </div>
         </div>
     </div>
-    <div class="formacion">
+
+    <div class="formacion box-section">
         <h3>Formación Académica</h3>
         <ul>
             <li>Técnico en Mecánica Automotriz y Autotrónica - Duoc UC</li>
             <li>Analista Programador - Inacap (en curso)</li>
         </ul>
     </div>
-    
-    <div>
+
+    <div class="box-section">
         <h3>Galería</h3>
         <p>Aquí hay algunas imágenes que representan mis intereses y estilo de vida:</p>
         <div class="gallery">
@@ -84,22 +88,25 @@
             <img src="imagenes/gym.jpg" alt="Gimnasio">
         </div>
     </div>
-    <div class="contacto">
+
+    <div class="contacto box-section">
         <h3>Contáctame</h3>
         <form action="/enviar" method="post">
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre" required>
-    
+
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
-    
+
             <label for="mensaje">Mensaje:</label>
             <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
-    
+
+            <div class="btn-container">
             <button type="submit">Enviar</button>
+            </div>
         </form>
     </div>
-    
+
     <footer>
         <p>&copy; 2025 Sebastián. Todos los derechos reservados.</p>
     </footer>
